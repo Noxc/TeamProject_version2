@@ -1,0 +1,344 @@
+/*Christine M Jordan 5.24.2020 CIS 184 LAB 6*/
+html {
+	background-image: url("../images/Animated-Moon-Background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100% /*Edit: cass*/
+}
+body {
+	background: #000000;
+	background-image: url("/images/Animated-Moon-Background.jpg");
+	background-size: 100%;
+	line-height: 1.75em;
+	color: #CCB7C0;
+	font-size: 12pt;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+.list-date-list{
+	color: #CCB7C0
+}
+
+#menu {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-family: Candara, sans-serif;
+	margin: 0 0 0 0;
+	height: 77px;
+	background: #bdb7bc;
+	width: 1090px;
+	padding: 0 45px 0 45px;
+	line-height: 70px;
+	text-shadow: 1px 1px 0px #FFF;
+} /*edit by cass*/
+
+	#menu a {
+		text-decoration: none;
+		font-size: 1.5em;
+		text-transform: lowercase;
+		color: #000;
+	}
+
+	#menu ul {
+		list-style: none;
+	}
+
+		#menu ul li {
+			padding: 13px 15px 10px 15px;
+			margin-right: 10px;
+			display: inline;
+		}
+
+			#menu ul li.first {
+				padding-left: 0;
+			}
+
+	#menu .current_page_item {
+		background: rgba(0,0,0,0.1);
+		border-radius: 4px;
+		padding: 13px 15px 10px 15px !important;
+		border-top: solid 1px rgba(0,0,0,0.2);
+		border-bottom: solid 1px #fff;
+	}
+
+#header {
+	padding: 45px;
+	position: relative;
+	height: 140px;
+}
+
+#logo {
+	line-height: 168px;
+	left: 45px;
+	height: 168px;
+	top: 0;
+	position: absolute;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.box {
+	margin-bottom: 3em;
+} /*edit by cass*/
+
+
+#box1 {
+	width: 420px;
+	float: left;
+	overflow: hidden;
+}
+
+body, input {
+	font-family: Candara, sans-serif;
+}
+
+h1, h2, h3, p {
+	margin: 40px;
+	padding: 0;
+	color:navajowhite;
+}
+
+#content {
+	padding: 0;
+	width: 765px;
+	float: left;
+}
+
+
+#DeckTable tr td:first-child {
+	width: 500px;
+}
+
+#DeckTable tr td:nth-child(2) {
+	width: 100px;
+}
+
+#DeckTable tr td:nth-child(3) {
+	width: 200px;
+}
+
+#DeckTable tr td:last-child {
+	width: 60px;
+}
+
+.border_bottom {
+	border-bottom: 2px solid #CCB7C0;
+}
+
+#page {
+	opacity: 0.6;
+	width: 1090px;
+	padding: 45px 45px 0 45px;
+	position: relative;
+	background: rgba(20,0,18,0.9);
+	margin: 0;
+	border-left: solid 1px rgba(255,230,255,0.15);
+	border-right: solid 1px rgba(255,230,255,0.15);
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
+
+	#page .section-list {
+		padding-left: 0;
+		list-style: none;
+	}
+
+		#page .section-list li {
+			padding: 30px 0 30px 0;
+			clear: both;
+		}
+
+	#page ul {
+		list-style: none;
+	}
+
+#page-bottom {
+	width: 1090px;
+	padding: 45px 45px 30px 45px;
+	color: #444;
+	background: #A59DA4 url(images/bg1.png) top left repeat-x;
+	position: relative;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+	box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.5), inset 0px 0px 0px 2px rgba(0,0,0,0.25), 0px 4px 3px 1px rgba(0,0,0,0.25);
+	border: solid 1px rgba(0,0,0,0.5);
+}
+
+	#page-bottom a {
+		color: #212121;
+	}
+
+	#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+		color: #000;
+	}
+
+	#page-bottom ul {
+		list-style: none;
+	}
+
+#page-bottom-content {
+	width: 765px;
+	float: left;
+}
+
+/* Header */
+header {
+	background: linear-gradient(83deg, rgba(14,4,3,1) 0%, rgba(102,0,4,1) 100%);
+	padding: 35px;
+	font-style: oblique
+} 
+header img { 
+	float: left; 
+	padding-right: 15px;  
+} 
+header h2 {
+	font-size: 230%;
+}
+header h3 {
+	font-size: 125%;
+	padding-bottom: 15px;
+}
+
+/* Navigation menu */
+/*#nav_menu {
+	clear: left;
+}
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 160px;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+#nav_menu ul li a.current {
+	color: indianred;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: darkorange;
+}
+	*/
+
+/* Sidebar */
+aside {
+	float: left; 
+	width: 160px;
+	padding: 20px 0; 
+}
+#nav_list ul { 
+	list-style: none;
+	padding-left: 1.5em;
+}
+#nav_list ul li { 
+	width: 110px;
+	margin-bottom: .5em;
+	border: 2px solid black; }
+	#nav_list ul li a {
+		display: block;
+		font-weight: bold;
+		text-decoration: none;
+		background-color: black;
+		padding: .5em 0 .5em .5em;
+		color: #CCB7C0;
+	}
+
+/* Section */
+/*section {
+	width: 580px;
+	float: right;
+	padding: 20px 40px 20px 20px;	
+}
+section h1 { 
+	font-size: 140%;
+	margin-bottom: .5em;
+}
+section h1:first-letter { 
+	font-size: 240%;
+}
+section h2 {
+	font-size: 125%;
+	margin: .8em 0 .5em 0;
+}
+section h3 {
+	font-size: 110%;
+	margin: .8em 0 .5em 0;
+}
+section p {
+	margin-bottom: .5em;
+}
+section a {
+	font-weight: bold;
+	color: black;
+}
+section a:link, main a:visited { 
+    color: indianred; 
+}
+section a:hover, main a:focus { 
+    color: #7d0000;
+}
+	*/
+
+/* Footer */
+
+#logo a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#footer
+{
+	text-align: center;
+	margin: 40px 0 80px 0;
+	color: #543E51;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
+
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
+
+.arcanatable{
+	color:ghostwhite;
+
+}
+
+.arcanatable tr:nth-child(even){
+	background-color:lightcyan;
+	color: black;
+}
+#wrapper {
+	width: 1180px;
+	position: relative;
+	margin: 0 auto 0 auto;
+}
