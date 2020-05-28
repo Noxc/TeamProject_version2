@@ -1,6 +1,6 @@
-﻿/*Christine M Jordan 5.24.2020 CIS 184 LAB 6*/
+﻿/*Christine M Jordan and [CNIXON] 5.24.2020 CIS 184 LAB 6*/
 html {
-    background-image: url("../images/Animated-Moon-Background.jpg");
+    background-image: url("../images/moonphases.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100% /*Edit: cass*/
@@ -8,7 +8,7 @@ html {
 
 body {
     background: #000000;
-    background-image: url("/images/Animated-Moon-Background.jpg");
+    background-image: url("/images/moonphases.jpg");
     background-size: 100%;
     line-height: 1.75em;
     color: #CCB7C0;
