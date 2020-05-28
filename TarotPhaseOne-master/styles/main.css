@@ -2,13 +2,14 @@
 html {
 	background-image: url("../images/Animated-Moon-Background.jpg");
 	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: 100% /*Edit: cass*/
+	background-attachment: fixed;
+	background-size: auto;
 }
 body {
 	background: #000000;
-	background-image: url("/images/Animated-Moon-Background.jpg");
+	/*background-image: url("/images/Animated-Moon-Background.jpg");*/
 	background-size: 100%;
+	background-color:transparent;
 	line-height: 1.75em;
 	color: #CCB7C0;
 	font-size: 12pt;
